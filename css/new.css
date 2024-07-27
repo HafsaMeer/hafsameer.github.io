@@ -1,0 +1,23 @@
+.responsibilities-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0px auto;
+}
+
+.responsibilities {
+    margin-top: 1rem;
+    margin: 1rem;
+
+}
+
+.responsibilities > li {
+    padding-left: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.linkedin-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
