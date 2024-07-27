@@ -8,11 +8,7 @@ $(".page-scroll").bind("click", function (event) {
     .stop()
     .animate(
       {
-<<<<<<< HEAD
         scrollTop: $($anchor.attr("href")).offset().top - 64,
-=======
-        scrollTop: $($anchor.attr("href")).offset().top - 84,
->>>>>>> 5e51e3aadc9804fbb66114723dfc24e9f75e2a4a
       },
       1500,
       "easeInOutExpo"
