@@ -6,13 +6,19 @@
 
 .responsibilities {
     margin-top: 1rem;
-    margin: 1rem;
+    margin: 2rem;
 
 }
 
-.responsibilities > li {
-    padding-left: 2rem;
+.responsibilities > ul > li {
+    padding-left: 1rem;
+    list-style-type: disc;
     font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.responsibilities > ul > li::marker {
+    font-size: 20px;
     line-height: 1.5rem;
 }
 
@@ -20,4 +26,31 @@
     display: inline-flex;
     align-items: center;
     gap: 1rem;
+}
+
+.education {
+    position: relative;
+    z-index: 99 !important;
+}
+
+.education-item {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0px;
+}
+
+.education-item--img {
+    min-width: 75px;
+    max-width: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    border-radius: 50% !important;
+    overflow: hidden;
+}
+
+.education-item--desc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
