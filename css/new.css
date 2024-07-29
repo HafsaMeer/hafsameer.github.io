@@ -1,3 +1,26 @@
+.exp {
+    display: flex; 
+    gap: 2rem; 
+    align-items: center;
+}
+
+.exp-img {
+    min-width: 75px; 
+    max-width: 75px; 
+    min-height: 75px; 
+    max-height: 75px; 
+    overflow: hidden; 
+    background-color: white; 
+    border-radius: 50% !important;
+}
+
+.exp-desc {
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
 .responsibilities-container {
     width: 100% !important;
     max-width: 100% !important;
@@ -53,4 +76,28 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .exp {
+        flex-direction: column;
+    }
+
+    .exp-desc {
+        flex-direction: column;
+    }
+
+    .exp-desc h3 {
+        text-align: center;
+    }
+
+    .education-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education-item--desc {
+        flex-direction: column;
+        text-align: center;
+    }
 }
