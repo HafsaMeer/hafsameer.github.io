@@ -78,6 +78,12 @@
     justify-content: space-between;
 }
 
+.contact-row {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
 @media screen and (max-width: 767px) {
     .exp {
         flex-direction: column;
@@ -87,7 +93,7 @@
         flex-direction: column;
     }
 
-    .exp-desc h3 {
+    .exp-desc {
         text-align: center;
     }
 
@@ -99,5 +105,9 @@
     .education-item--desc {
         flex-direction: column;
         text-align: center;
+    }
+
+    .contact-row {
+        flex-direction: column;
     }
 }
